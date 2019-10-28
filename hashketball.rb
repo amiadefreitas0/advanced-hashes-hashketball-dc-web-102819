@@ -129,7 +129,7 @@ def num_points_scored(player_name)
          found_player = data.find do |player|
            player[:player_name] == player_name
          end
-  
+
          if found_player
            return found_player[:points]
          end
